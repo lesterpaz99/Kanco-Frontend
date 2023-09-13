@@ -1,6 +1,13 @@
 import { UserProvider } from '@auth0/nextjs-auth0/client';
 
 import './globals.css';
+
+//theme
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+
+//core
+import "primereact/resources/primereact.min.css";
+
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { GlobalProvider } from './context/global-provider';
