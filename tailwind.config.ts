@@ -14,6 +14,17 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      spacing: {
+        'sidebar': '319px'
+      },
+      width: {
+        'sidebar': '319px',
+        'custom-header': 'calc(100% - 319px)'
+      },
+      translate: {
+        'sidebar': '319px',
+        '-sidebar': '319px'
+      },
       colors: {
         primary: {
           light: '#deded2',
